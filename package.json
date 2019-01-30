@@ -1,0 +1,12 @@
+{
+  "name": "yzf-public-utils",
+  "version": "1.0.0",
+  "description": "yzf public utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "francis",
+  "license": "ISC",
+  "node":"*"
+}
