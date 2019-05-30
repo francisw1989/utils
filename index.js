@@ -27,6 +27,9 @@ let funs = {
         let ajax = new XMLHttpRequest();
         ajax.open(param.type, param.url);
         ajax.setRequestHeader("X-Requested-With", "XMLHttpRequest");
+        if(param.enId){
+            ajax.setRequestHeader("enId", param.enId);
+        }
         ajax.send();
         ajax.onreadystatechange = () => {
             if (ajax.readyState == 4 && ajax.status == 200) {
